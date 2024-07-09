@@ -11,7 +11,7 @@ dependencies:
 id: olivero_heromenu
 theme: olivero
 region: hero
-weight: 0
+weight: -7
 provider: null
 plugin: 'system_menu_block:hero-menu'
 settings:

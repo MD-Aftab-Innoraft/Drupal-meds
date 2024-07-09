@@ -1,0 +1,34 @@
+uuid: 6c32e0a9-cd9b-4b56-9f51-8f66dd6ff114
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_banner
+    - node.type.homepage
+    - paragraphs.paragraphs_type.img_link_para
+  module:
+    - entity_reference_revisions
+id: node.homepage.field_banner
+field_name: field_banner
+entity_type: node
+bundle: homepage
+label: Banner
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      img_link_para: img_link_para
+    negate: 0
+    target_bundles_drag_drop:
+      img_link_para:
+        weight: 3
+        enabled: true
+      product_img_quote_para:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

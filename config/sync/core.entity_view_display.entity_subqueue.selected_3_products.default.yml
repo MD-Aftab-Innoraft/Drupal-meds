@@ -1,0 +1,73 @@
+uuid: ea4c6dc8-8d52-4c09-a88f-71f1509123af
+langcode: en
+status: true
+dependencies:
+  config:
+    - entityqueue.entity_queue.selected_3_products
+  module:
+    - layout_builder
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          2b5dd38e-162e-4298-9a46-b6dc52657fe0:
+            uuid: 2b5dd38e-162e-4298-9a46-b6dc52657fe0
+            region: content
+            configuration:
+              id: 'field_block:entity_subqueue:selected_3_products:title'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          d2558643-d963-4d05-bab3-80de3a0bfdaf:
+            uuid: d2558643-d963-4d05-bab3-80de3a0bfdaf
+            region: content
+            configuration:
+              id: 'field_block:entity_subqueue:selected_3_products:items'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: hidden
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
+id: entity_subqueue.selected_3_products.default
+targetEntityType: entity_subqueue
+bundle: selected_3_products
+mode: default
+content:
+  items:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: -10
+    region: content
+hidden: {  }

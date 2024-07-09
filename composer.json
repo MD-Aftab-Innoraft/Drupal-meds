@@ -22,6 +22,8 @@
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
         "drupal/devel": "^5.2",
+        "drupal/entityqueue": "^1.8",
+        "drupal/paragraphs": "^1.17",
         "drupal/token": "^1.14",
         "drupal/webform": "^6.2",
         "drush/drush": "^12.5"

@@ -1,0 +1,10 @@
+uuid: 1cb094d4-d8a4-4e74-8dae-70a5d4e0bf7c
+langcode: en
+status: true
+dependencies: {  }
+id: img_link_para
+label: 'Img-link para'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

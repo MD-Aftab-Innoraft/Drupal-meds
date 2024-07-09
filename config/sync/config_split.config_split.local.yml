@@ -19,6 +19,7 @@ theme: {  }
 complete_list:
   - devel.settings
   - devel.toolbar.settings
+  - system.site
   - views.settings
   - webform.settings
 partial_list: {  }

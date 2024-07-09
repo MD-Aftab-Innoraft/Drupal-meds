@@ -1,0 +1,10 @@
+uuid: c2e83a46-1ccc-4433-b65c-0f8eeed38b57
+langcode: en
+status: true
+dependencies: {  }
+id: product_img_quote_para
+label: 'Product img-quote para'
+icon_uuid: null
+icon_default: null
+description: 'A paragraph type to contain an image and a quote.'
+behavior_plugins: {  }

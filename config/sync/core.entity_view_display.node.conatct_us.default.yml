@@ -1,0 +1,43 @@
+uuid: b00dd616-0f05-4c0b-a2cf-47119c3792ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.conatct_us.field_contact_us_form
+    - field.field.node.conatct_us.field_contact_us_image
+    - node.type.conatct_us
+  module:
+    - image
+    - user
+    - webform
+id: node.conatct_us.default
+targetEntityType: node
+bundle: conatct_us
+mode: default
+content:
+  field_contact_us_form:
+    type: webform_entity_reference_entity_view
+    label: above
+    settings:
+      source_entity: true
+      lazy: false
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_contact_us_image:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

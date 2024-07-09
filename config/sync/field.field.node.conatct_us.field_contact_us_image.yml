@@ -1,0 +1,38 @@
+uuid: c2c29b79-bf5a-4a88-b8e9-3159447887ac
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_contact_us_image
+    - node.type.conatct_us
+  module:
+    - image
+id: node.conatct_us.field_contact_us_image
+field_name: field_contact_us_image
+entity_type: node
+bundle: conatct_us
+label: 'Contact Us Image'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg webp'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

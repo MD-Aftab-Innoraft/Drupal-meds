@@ -1,0 +1,9 @@
+uuid: bc09e9f5-60e6-43e0-955a-c2e8e997bf58
+langcode: en
+status: true
+dependencies: {  }
+name: Product
+vid: product
+description: 'Tags for different types of products.'
+weight: 0
+new_revision: true
