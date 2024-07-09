@@ -1,0 +1,26 @@
+uuid: 1986c6ad-750f-4f28-b922-e42ded4a57de
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: selected_3_products
+label: 'Selected 3 products'
+handler: simple
+handler_configuration: {  }
+entity_settings:
+  target_type: node
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      product: product
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+queue_settings:
+  min_size: 3
+  max_size: 3
+  act_as_queue: false
+  reverse: false

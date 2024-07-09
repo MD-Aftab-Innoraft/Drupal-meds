@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: c793c351-bed9-48a5-a90f-c3fcf2dafa24
+name: Dev Drupal-news
+mail: aftabansari1024@gmail.com
+slogan: ''
+page:
+  403: /node/14
+  404: /node/13
+  front: /node/18
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

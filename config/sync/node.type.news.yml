@@ -1,0 +1,18 @@
+uuid: 5e0bca14-e9f3-4ae5-9def-213234c8daa9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: News
+type: news
+description: 'Use News to create news content.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: false

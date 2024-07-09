@@ -1,0 +1,25 @@
+uuid: dddfcd4c-bb4f-4a95-8aa2-735692b18a45
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:aef9cb45-f26a-470b-bb51-bb9fbdcd9f79'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_contactus
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:aef9cb45-f26a-470b-bb51-bb9fbdcd9f79'
+settings:
+  id: 'block_content:aef9cb45-f26a-470b-bb51-bb9fbdcd9f79'
+  label: 'Contact Us'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

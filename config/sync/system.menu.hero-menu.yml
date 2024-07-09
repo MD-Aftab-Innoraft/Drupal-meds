@@ -1,0 +1,8 @@
+uuid: eea7e045-6c0c-4180-bf4e-4041fdf5ce81
+langcode: en
+status: true
+dependencies: {  }
+id: hero-menu
+label: 'Hero menu'
+description: 'Hero administrative links'
+locked: false
